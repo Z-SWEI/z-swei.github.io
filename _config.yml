@@ -1,0 +1,77 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: SWEI
+email:
+description: A simple and awesome blog theme powered by jekyll.
+url: # the base hostname & protocol for your site
+keywords: ["blog", "jekyll"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+future: true
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!-- more -->
+permalink:         /articles/:year-:month/:title
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: SWEI
+  avatar: peppa-pig-logo.png
+  job: 
+  bio: "不驰于空想 不骛于虚声"
+  email:
+  gitalk:
+    client_id: 4b63129ab3132910020d
+    client_secret: 1da3a56032225103320c815bb833b5af5fa98969
+    repo: z-swei.github.io
+    owner: z-swei
+  disqus-shortname: # z-swei-github-io
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-152877115-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #username
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
